@@ -2,6 +2,8 @@
 
 使用 SoX(Sound eXchange) 和 curl 进行音频文件频谱生成并上传sm.ms图床的bash脚本工具。
 
+脚本中sox的参数设置参考了puff@RED与newstarshipsmell@RED两位大佬的频谱制作指南以及Stiffler147@RED提供的Bat脚本文件。
+
 ## 依赖安装
 
 脚本依赖 sox curl 命令，在CentOS与Ubuntu的软件仓库中均存在，可以直接安装。
@@ -59,9 +61,9 @@
 
 1. 感谢[Sound eXchange](http://sox.sourceforge.net/ "Sound eXchange")提供的强大音频处理工具；
 1. 感谢[sm.ms图床](https://sm.ms/ "sm.ms图床")提供的免费、可靠服务和易用的[API](https://doc.sm.ms/ "API")；
-1. 感谢海豚各位大佬写的详细wiki，以及wiki中频谱制作指南的作者puff@RED与 newstarshipsmell@RED。
+1. 感谢海豚各位大佬写的详细wiki，频谱制作指南的作者`puff@RED`与`newstarshipsmell@RED`以及`Stiffler147@RED`提供的Bat脚本文件。
 
 ## 许可
 
-这个项目是在MIT许可下进行的 - 查看 [LICENSE](https://github.com/pdxgf1208/ffmpeg-videotools/blob/master/LICENSE "LICENSE") 文件获取更多详情。
+这个项目是在MIT许可下进行的 - 查看 [LICENSE](https://github.com/pdxgf1208/SoX-spectrograms/blob/master/LICENSE "LICENSE") 文件获取更多详情。
 
